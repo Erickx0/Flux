@@ -22,17 +22,15 @@ NODES=(
     
 )
 
-CHECKPOINT_MODELS=
+CHECKPOINT_MODELS=(
     "https://huggingface.co/marduk191/Flux.1_collection/resolve/main/flux.1_dev_16x16-marduk191.safetensors"
-
 )
 
 CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
-    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp32https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp32"
+    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp32"
     "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
-    
 )
 
 UNET_MODELS=(
