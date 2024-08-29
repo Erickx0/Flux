@@ -19,18 +19,23 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    
+    "https://github.com/crystian/ComfyUI-Crystools.git"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
 )
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/marduk191/Flux.1_collection/resolve/main/flux.1_dev_16x16-marduk191.safetensors"
+    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp32"
+    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+    "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/344487?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/641087?type=Model&format=SafeTensor&size=full&fp=fp16"
+    
 )
 
 CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
-    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp32"
-    "https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 )
 
 UNET_MODELS=(
@@ -42,21 +47,20 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/742813?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/770455?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/767214?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/775067?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/720252?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/706528?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/767619?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/706528?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/762800?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/723657?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/718406?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/742813?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/742813"
+    "https://civitai.com/api/download/models/770455"
+    "https://civitai.com/api/download/models/767214"
+    "https://civitai.com/api/download/models/775067"
+    "https://civitai.com/api/download/models/720252"
+    "https://civitai.com/api/download/models/706528"
+    "https://civitai.com/api/download/models/767619"
+    "https://civitai.com/api/download/models/706528"
+    "https://civitai.com/api/download/models/762800"
+    "https://civitai.com/api/download/models/723657"
+    "https://civitai.com/api/download/models/718406"
+    "https://civitai.com/api/download/models/742813"
     "https://huggingface.co/marduk191/Flux.1_collection/resolve/main/flux.1_dev_16x16-marduk191.safetensors"
-    
-    
+        
 )
 
 ESRGAN_MODELS=(
