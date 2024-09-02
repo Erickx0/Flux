@@ -179,8 +179,11 @@ function provisioning_get_models() {
     arr=("$@")
     printf "Downloading %s model(s) to %s...\n" "${#arr[@]}" "$dir"
 
-    # Parallel downloading using GNU parallel
-    printf "%s\n" "${arr[@]}" | parallel -j 4 "provisioning_download {} '$dir'"
+    # Parallel downloading using background processes
+    for url in "${arr[@]}"; do
+        provisioning_download "$url" "$dir" &
+    done
+    wait  # Wait for all background processes to finish
 }
 
 function provisioning_print_header() {
