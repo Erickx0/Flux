@@ -39,7 +39,6 @@ CLIP_MODELS=(
 )
 
 UNET_MODELS=(
-    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true"
 )
 
 VAE_MODELS=(
@@ -54,13 +53,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/720252"
     "https://civitai.com/api/download/models/706528"
     "https://civitai.com/api/download/models/767619"
-    "https://civitai.com/api/download/models/706528"
     "https://civitai.com/api/download/models/762800"
-    "https://civitai.com/api/download/models/723657"
     "https://civitai.com/api/download/models/718406"
-    "https://civitai.com/api/download/models/742813"
-    "https://huggingface.co/marduk191/Flux.1_collection/resolve/main/flux.1_dev_16x16-marduk191.safetensors"
-        
 )
 
 ESRGAN_MODELS=(
@@ -71,7 +65,6 @@ ESRGAN_MODELS=(
     "https://github.com/Phhofm/models/releases/download/4xRealWebPhoto_v4_dat2/4xRealWebPhoto_v4_dat2.pth"
     "https://github.com/Phhofm/models/releases/download/4xNomos2_realplksr_dysample/4xNomos2_realplksr_dysample.pth"
     "https://github.com/Phhofm/models/releases/download/4xTextures_GTAV_rgt-s/4xTextures_GTAV_rgt-s.pth"
-    
 )
 
 CONTROLNET_MODELS=(
